@@ -130,6 +130,6 @@ if __name__ == '__main__':
                         xlabel='Time',  
                         ylabel='Reading',  
                         legend=True,  
-                        figsize=(100, 500)) 
+                        figsize=(100, 50)) 
     plt.savefig('Summary Reading Monitor.pdf', dpi=600)
     plt.show()
