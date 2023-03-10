@@ -1,9 +1,10 @@
-### Code by David_Zhu.py ###
+### Code by David_Zhu ###
 import os, re
 import math
 import time
 import datetime
 import matplotlib.pyplot as plt
+import matplotlib.backends.backend_pdf
 import pandas as pd
 
 def execCmd(cmd):
@@ -47,6 +48,7 @@ def SensorReading(response):
 
 
 if __name__ == '__main__':
+    print("###### Code by David_Zhu ######\n")
     totaltime = int(input("Input Monitor Time (s): "))
     duringtime = int(input("Input During Time (s): "))
     BMCIP = str(input("Input BMCIP :"))
