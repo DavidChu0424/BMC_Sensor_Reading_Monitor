@@ -102,6 +102,7 @@ if __name__ == '__main__':
 
 
 
+    datajoin = datajoin.replace(to_replace= "na", value = 0)
     datajoin = datajoin.apply(pd.to_numeric,errors='ignore')
     datajoin.to_excel("Sensor Monitor Result.xlsx")
 
